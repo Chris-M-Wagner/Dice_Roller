@@ -64,4 +64,5 @@ Testing Methodology:
 7. python Dice Rolling Simulator.py -1      ---> Should error, prompt user for die count and die sides, then roll
 8. python Dice Rolling Simulator.py 3 -5    ---> Should error, prompt user for die count and die sides, then roll
 9. python Dice Rolling Simulator.py (input negative or 0)      ---> Should error, prompt user for die count and die sides, then roll
+10. python Dice Rolling Simulator.py 0, then input negative vals 2nd time      ---> Should error, prompt user for die count and die sides, error again, then roll
 '''
